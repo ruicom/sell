@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/sell?characterEncoding=utf-8&useSSL=false #编码要设置,否则可能会乱码
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+#    show-sql: true
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+#  path: /var/onroadrui/sell.log
+#  file: /var/onroadrui/sell.log
+#  level: deug
