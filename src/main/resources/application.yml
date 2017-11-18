@@ -6,6 +6,11 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/sell?characterEncoding=utf-8&useSSL=false #编码要设置,否则可能会乱码
     username: root
     password: root
+  redis:
+    host: 101.236.44.97
+    port: 6379
+    password: 585onroadrui123
+
   jpa:
     hibernate:
       ddl-auto: update
